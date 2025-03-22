@@ -12,7 +12,7 @@
 
 ```bash
 # 克隆项目
-git clone <仓库地址>
+git clone <https://github.com/VitensXX/CalcMCPServer>
 cd CalcMCPServer
 
 # 安装依赖
@@ -70,7 +70,6 @@ curl -X POST http://localhost:3000/mcp.functions.call -H "Content-Type: applicat
 MCP是一个开放的API标准，用于模型服务的交互。本项目实现了MCP的核心功能，包括函数列表和函数调用。
 
 更多关于MCP的信息，请访问 [modelcontextprotocol.io](https://modelcontextprotocol.io)。
-
 
 ## 在Cursor中配置MCP服务器
 
